@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+   
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+   <!--Header section-->
+    <header>
+      <h1> 
+        <img src="assets/Client2_LogoPalette3_91B9D2.png"> ABC Fitness Studio
+      </h1>
+      <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Gallery</a>
+      <a href="/page3.html">About</a>
+      <a href="/page4.html">Shop</a>
+    </nav>
+  </header>
+  <!--Main Section-->
+  <section>
+  <h2>Welcome to ABC Fitness Studio!</h2>
+  <p> "ABC Fitness Studio is a local fitness haven specializing in a diverse range of classes, including yoga, Pilates, and Zumba, all geared toward promoting a healthy and active lifestyle. With a commitment to well-being, it aims to provide its community with a welcoming space for physical and mental wellness."</p>
+  </body>
+<footer>
+<p> &copy; 2024 ABC Fitness Studio. All Rights Reserved </p>
+</footer>
+</html>

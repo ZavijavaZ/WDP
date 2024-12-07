@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Us</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!--Header section-->
+    <header>
+      <h1> 
+        <img src="assets/Client2_LogoPalette3_91B9D2.png" alt="ABC Fitness Studio Logo"> ABC Fitness Studio
+      </h1>
+      <nav>
+        <a href="/index.html" aria-current="page">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/about.html">About Us</a>
+        <a href="/custom.html">Shop</a>
+      </nav>
+    </header>
+    
+    <!--Main Section-->
+    <section>
+      <h2>About ABC Fitness Studio</h2>
+      <p>
+        "ABC Fitness Studio's goal is to create a healthy community that promotes strength, and well-being through fitness education and exercise. We offer a variety of classes which are Yoga, Pilates, Zumba, and more. ensuring there is something for everyone at any fitness level. Our instructors are great about helping you achieve your goals in a welcoming environment."
+      </p>
+
+      <h3>Contact Us</h3>
+      <form action="#" method="POST">
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="name" placeholder="Enter your name" required /><br /><br />
+        
+        <label for="email">Your Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+        
+        <label for="message">Your Message:</label><br />
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea><br /><br />
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+      <p>&copy; 2024 ABC Fitness Studio. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

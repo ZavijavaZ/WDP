@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gallery</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!--Header Section-->
+    <header>
+      <h1>
+        <img src="assets/client-logo.png" alt="Client Logo"> Client Name
+      </h1>
+      <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/about.html">About Us/Contact</a>
+        <a href="/custom.html">Custom Page</a>
+      </nav>
+    </header>
+
+    <!--Main Section-->
+    <section>
+      <h2>Gallery</h2>
+      <p>Explore our featured products and select your favorite items with ease. Each product offers quality and style to fit your lifestyle!</p>
+      <table border="1" style="width: 100%; text-align: center;">
+        <tr>
+          <th>Product Image</th>
+          <th>Product Name</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td><img src="assets/Client2_YogaMat.png" alt="Product 1" style="width: 150px;"></td>
+          <td>Yoga Mat</td>
+          <td><button>Add to Cart</button></td>
+        </tr>
+        <tr>
+          <td><img src="assets/Client2_TeeShirt.png" alt="Product 2" style="width: 150px;"></td>
+          <td>Tee Shirt</td>
+          <td><button>Add to Cart</button></td>
+        </tr>
+        <tr>
+          <td><img src="assets/Client2_GroupKickboxing.png" alt="Product 3" style="width: 150px;"></td>
+          <td>Group Kickboxing</td>
+          <td><button>Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td><img src="assets/Client2_IndividualYoga.png" alt="Product 4" style="width: 150px;"></td>
+            <td>Individual Yoga</td>
+            <td><button>Add to Cart</button></td>
+          </tr>
+      </table>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+      <p>&copy; 2024 ABC Fitness Studio. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

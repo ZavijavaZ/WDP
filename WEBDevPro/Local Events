@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local Events</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+   
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1> 
+        <img src="assets/Client2_LogoPalette3_91B9D2.png"> ABC Fitness Studio
+      </h1>
+      <nav>
+        <a href="/index.html" aria-current="page">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/about.html">About</a>
+        <a href="/page4.html">Local Events</a>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section>
+      <h2>Upcoming Local Events Hosted by ABC Fitness Studio</h2>
+      <p>Join us for exciting community events to connect, move, and have fun! These events are perfect for fitness enthusiasts of all ages. Here's what's coming up:</p>
+      <ul>
+        <li>
+          <strong>Sunrise Yoga in the Park</strong><br>
+          Date: March 15, 2024<br>
+          Time: 7:00 AM - 9:00 AM<br>
+          Join our experienced yoga instructors for a calming session surrounded by nature. Bring your mat and get ready to find your zen.
+        </li>
+        <li>
+          <strong>Spring Pilates Workshop</strong><br>
+          Date: March 25, 2024<br>
+          Time: 10:00 AM - 12:00 PM<br>
+          Learn the fundamentals of Pilates in this hands-on workshop. Perfect for beginners and enthusiasts looking to refine their technique.
+        </li>
+        <li>
+          <strong>Zumba Dance Party</strong><br>
+          Date: April 5, 2024<br>
+          Time: 6:00 PM - 8:00 PM<br>
+          Get ready to groove! Join us for a lively Zumba dance party featuring upbeat music and energizing moves led by our expert instructors.
+        </li>
+        <li>
+          <strong>Community Health Fair</strong><br>
+          Date: April 20, 2024<br>
+          Time: 9:00 AM - 3:00 PM<br>
+          Explore health and wellness resources, free fitness assessments, and community vendors. Bring the whole family for a day of fun and education.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p> &copy; 2024 ABC Fitness Studio. All Rights Reserved </p>
+    </footer>
+  </body>
+</html>
